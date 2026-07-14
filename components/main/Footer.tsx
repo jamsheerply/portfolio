@@ -48,13 +48,6 @@ const Footer = () => {
                 <span className="text-[15px] ml-[6px]">{link.label}</span>
               </a>
             ))}
-            <a
-              href="/Jamseer_MC_Resume.pdf"
-              download="Jamseer_MC_Resume.pdf"
-              className="flex flex-row items-center my-[12px] cursor-pointer hover:text-[#b49bff] transition-colors"
-            >
-              <span className="text-[15px] ml-[6px]">Download Resume</span>
-            </a>
           </div>
 
           <div className="min-w-[160px] h-auto flex flex-col items-center justify-start">
