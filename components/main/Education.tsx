@@ -40,7 +40,14 @@ const Education = () => {
               </span>
             </div>
             <p className="text-[#b49bff] text-xs sm:text-sm font-medium">
-              {edu.school}
+              <a
+                href={edu.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline hover:text-white transition-colors"
+              >
+                {edu.school}
+              </a>
             </p>
             <p className="text-gray-500 text-xs mt-1">{edu.location}</p>
           </motion.div>

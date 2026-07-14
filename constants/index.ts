@@ -101,6 +101,7 @@ export const Experience_data = [
 export const Education_data = [
   {
     school: "APJ Abdul Kalam Technological University",
+    url: "https://ktu.edu.in/",
     degree: "Bachelor of Technology (Mechanical Engineering)",
     location: "Ernakulam, Kerala",
     duration: "2015 — 2019",
