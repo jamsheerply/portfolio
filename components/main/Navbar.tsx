@@ -10,6 +10,7 @@ const navLinks = [
   { href: "#skills", label: "Skills" },
   { href: "#experience", label: "Experience" },
   { href: "#education", label: "Education" },
+  { href: "#availability", label: "Availability" },
 ];
 
 const Navbar = () => {
@@ -69,8 +70,8 @@ const Navbar = () => {
             </a>
           </div>
 
-          <div className="hidden md:flex w-[520px] h-full flex-row items-center justify-between md:mr-10">
-            <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] px-[16px] lg:px-[20px] py-[10px] rounded-full text-gray-200 text-sm lg:text-base gap-2">
+          <div className="hidden md:flex w-[600px] h-full flex-row items-center justify-between md:mr-10">
+            <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] px-[14px] lg:px-[18px] py-[10px] rounded-full text-gray-200 text-sm lg:text-base gap-2">
               {navLinks.map((link) => (
                 <a key={link.href} href={link.href} className="cursor-pointer">
                   {link.label}

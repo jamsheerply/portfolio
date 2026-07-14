@@ -107,3 +107,15 @@ export const Education_data = [
     duration: "2015 — 2019",
   },
 ];
+
+export const Languages_data = [
+  { language: "English", level: "Professional / Fluent" },
+  { language: "Malayalam", level: "Native" },
+  { language: "Hindi", level: "Conversational" },
+];
+
+export const Availability = {
+  openTo: ["Full-time"],
+  locations: ["Remote", "Bengaluru", "Hybrid", "Relocate abroad"],
+  badge: "Open to Full-time · Remote / Bengaluru",
+};

@@ -14,6 +14,7 @@ const aboutLinks = [
   { href: "#skills", label: "Skills" },
   { href: "#experience", label: "Experience" },
   { href: "#education", label: "Education" },
+  { href: "#availability", label: "Availability" },
 ];
 
 const Footer = () => {

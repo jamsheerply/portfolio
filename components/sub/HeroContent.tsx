@@ -9,11 +9,12 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
+import { Availability } from "@/constants";
 
 const HeroContent = () => {
   return (
     <motion.div
-      initial="hidden"
+      initial={false}
       animate="visible"
       className="flex flex-col-reverse md:flex-row items-center justify-center px-5 sm:px-10 md:px-20 mt-28 md:mt-40 w-full z-[20] gap-8 md:gap-0"
     >
@@ -27,6 +28,15 @@ const HeroContent = () => {
             Software Development Engineer
           </h1>
         </motion.div>
+
+        <motion.a
+          variants={slideInFromLeft(0.35)}
+          href="#availability"
+          className="inline-flex items-center gap-2 text-[11px] sm:text-xs text-[#b49bff] border border-[#7042f861] bg-[#0300145e] px-3 py-1.5 rounded-full hover:border-[#b49bff] hover:text-white transition-colors"
+        >
+          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+          {Availability.badge}
+        </motion.a>
 
         <motion.div
           variants={slideInFromLeft(0.5)}
