@@ -31,7 +31,7 @@ const HeroContent = () => {
 
         <motion.a
           variants={slideInFromLeft(0.35)}
-          href="#availability"
+          href="/#availability"
           className="inline-flex items-center gap-2 text-[11px] sm:text-xs text-[#b49bff] border border-[#7042f861] bg-[#0300145e] px-3 py-1.5 rounded-full hover:border-[#b49bff] hover:text-white transition-colors"
         >
           <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
@@ -66,7 +66,7 @@ const HeroContent = () => {
           className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto"
         >
           <a
-            href="#experience"
+            href="/#experience"
             className="py-2 px-4 button-primary text-center text-white cursor-pointer rounded-lg min-w-[160px]"
           >
             View Experience

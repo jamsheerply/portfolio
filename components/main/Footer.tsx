@@ -10,11 +10,11 @@ const iconMap: Record<string, React.ReactNode> = {
 };
 
 const aboutLinks = [
-  { href: "#about-me", label: "About me" },
-  { href: "#skills", label: "Skills" },
-  { href: "#experience", label: "Experience" },
-  { href: "#education", label: "Education" },
-  { href: "#availability", label: "Availability" },
+  { href: "/#about-me", label: "About me" },
+  { href: "/#skills", label: "Skills" },
+  { href: "/#experience", label: "Experience" },
+  { href: "/#education", label: "Education" },
+  { href: "/#availability", label: "Availability" },
 ];
 
 const Footer = () => {

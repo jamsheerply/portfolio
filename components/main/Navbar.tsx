@@ -6,11 +6,11 @@ import React, { useEffect, useState } from "react";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 
 const navLinks = [
-  { href: "#about-me", label: "About me" },
-  { href: "#skills", label: "Skills" },
-  { href: "#experience", label: "Experience" },
-  { href: "#education", label: "Education" },
-  { href: "#availability", label: "Availability" },
+  { href: "/#about-me", label: "About me" },
+  { href: "/#skills", label: "Skills" },
+  { href: "/#experience", label: "Experience" },
+  { href: "/#education", label: "Education" },
+  { href: "/#availability", label: "Availability" },
 ];
 
 const Navbar = () => {
@@ -63,7 +63,7 @@ const Navbar = () => {
               />
             </button>
             <a
-              href="#about-me"
+              href="/#about-me"
               className="font-bold text-gray-300 text-sm md:text-base"
             >
               JAMSEER M C
