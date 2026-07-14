@@ -8,6 +8,7 @@ import Footer from "@/components/main/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://portfolio-hazel-pi-64ktuyncfa.vercel.app"),
   title: "Jamseer M C | Software Development Engineer",
   description:
     "Software Development Engineer with 4+ years of experience building scalable full-stack and backend applications using React, Node.js, TypeScript, and MongoDB. Experienced in microservices, real-time systems, Docker, Kubernetes, AWS, and Azure.",
